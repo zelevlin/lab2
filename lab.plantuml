@@ -1,0 +1,57 @@
+@startuml
+
+!theme plain
+top to bottom direction
+skinparam linetype ortho
+
+class BabyDollEyes
+class ChargeBeam
+class DamageMove
+class Deino
+class DoubleHit
+class Eevee
+class Facade
+class FrostBreath
+class Glaceon
+class Headbutt
+class Hydreigon
+class Main
+class Move
+class PhysicalMove
+class Pokemon
+class QuickAttack
+class Rest
+class SampleMove
+class SpecialMove
+class StatusMove
+class Swagger
+class Swagger
+class ThunderShock
+class ZapCannon
+class Zapdos
+class Zweilous
+
+BabyDollEyes  -[#000082,plain]-^  StatusMove   
+ChargeBeam    -[#000082,plain]-^  SpecialMove  
+DamageMove    -[#000082,plain]-^  Move         
+Deino         -[#000082,plain]-^  Pokemon      
+DoubleHit     -[#000082,plain]-^  PhysicalMove 
+Eevee         -[#000082,plain]-^  Pokemon      
+Facade        -[#000082,plain]-^  PhysicalMove 
+FrostBreath   -[#000082,plain]-^  SpecialMove  
+Glaceon       -[#000082,plain]-^  Eevee        
+Headbutt      -[#000082,plain]-^  PhysicalMove 
+Hydreigon     -[#000082,plain]-^  Zweilous     
+PhysicalMove  -[#000082,plain]-^  DamageMove   
+QuickAttack   -[#000082,plain]-^  PhysicalMove 
+Rest          -[#000082,plain]-^  StatusMove   
+SampleMove    -[#000082,plain]-^  PhysicalMove 
+SpecialMove   -[#000082,plain]-^  DamageMove   
+StatusMove    -[#000082,plain]-^  Move         
+Swagger       -[#000082,plain]-^  StatusMove   
+Swagger       -[#000082,plain]-^  StatusMove   
+ThunderShock  -[#000082,plain]-^  SpecialMove  
+ZapCannon     -[#000082,plain]-^  SpecialMove  
+Zapdos        -[#000082,plain]-^  Pokemon      
+Zweilous      -[#000082,plain]-^  Deino        
+@enduml

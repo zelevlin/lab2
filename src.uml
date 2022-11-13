@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>C:/Users/zelen/Desktop/Java/ITMO/lab2.2/src</OriginalElement>
+  <nodes>
+    <node x="1240.0" y="64.0">moves.eevee.BabyDollEyes</node>
+    <node x="210.0" y="-15.0">moves.deino.DoubleHit</node>
+    <node x="1400.0" y="64.0">moves.deino.Swagger</node>
+    <node x="209.07499999999993" y="64.0">ru.ifmo.se.pokemon.PhysicalMove</node>
+    <node x="506.0" y="-15.0">moves.eevee.Facade</node>
+    <node x="77.0" y="-15.0">moves.deino.Headbutt</node>
+    <node x="-72.0" y="-15.0">moves.eevee.QuickAttack</node>
+    <node x="133.49999999999997" y="316.16798846431146">pokemons.Zweilous</node>
+    <node x="564.5" y="143.0">ru.ifmo.se.pokemon.DamageMove</node>
+    <node x="784.75" y="222.0">ru.ifmo.se.pokemon.Move</node>
+    <node x="247.00000000000003" y="474.16798846431146">ru.ifmo.se.pokemon.Pokemon</node>
+    <node x="623.0" y="-15.0">moves.zapdos.ChargeBeam</node>
+    <node x="373.0" y="395.16798846431146">pokemons.Eevee</node>
+    <node x="143.00000000000003" y="395.16798846431146">pokemons.Deino</node>
+    <node x="1112.0" y="64.0">moves.zapdos.Swagger</node>
+    <node x="365.5" y="316.16798846431146">pokemons.Glaceon</node>
+    <node x="349.0" y="-15.0">moves.SampleMove</node>
+    <node x="1086.0" y="-15.0">moves.zapdos.ZapCannon</node>
+    <node x="514.5" y="237.16798846431146">Main</node>
+    <node x="1174.5" y="143.0">ru.ifmo.se.pokemon.StatusMove</node>
+    <node x="1014.0" y="64.0">moves.deino.Rest</node>
+    <node x="253.00000000000003" y="395.16798846431146">pokemons.Zapdos</node>
+    <node x="127.99999999999991" y="237.16798846431146">pokemons.Hydreigon</node>
+    <node x="778.0" y="-15.0">moves.zapdos.ThunderShock</node>
+    <node x="941.0" y="-15.0">moves.eevee.FrostBreath</node>
+    <node x="859.0" y="64.0">ru.ifmo.se.pokemon.SpecialMove</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="pokemons.Hydreigon" target="pokemons.Zweilous" relationship="GENERALIZATION">
+      <point x="5.6843418860808015E-14" y="14.5" />
+      <point x="0.0" y="-14.5" />
+    </edge>
+    <edge source="moves.eevee.FrostBreath" target="ru.ifmo.se.pokemon.SpecialMove" relationship="GENERALIZATION">
+      <point x="0.0" y="14.5" />
+      <point x="1003.5" y="39.0" />
+      <point x="926.5" y="39.0" />
+      <point x="0.0" y="-14.5" />
+    </edge>
+    <edge source="moves.eevee.QuickAttack" target="ru.ifmo.se.pokemon.PhysicalMove" relationship="GENERALIZATION">
+      <point x="0.0" y="14.5" />
+      <point x="-7.5" y="39.0" />
+      <point x="278.57499999999993" y="39.0" />
+      <point x="0.0" y="-14.5" />
+    </edge>
+    <edge source="pokemons.Zapdos" target="ru.ifmo.se.pokemon.Pokemon" relationship="GENERALIZATION">
+      <point x="0.0" y="14.5" />
+      <point x="0.0" y="-14.5" />
+    </edge>
+    <edge source="moves.SampleMove" target="ru.ifmo.se.pokemon.PhysicalMove" relationship="GENERALIZATION">
+      <point x="0.0" y="14.5" />
+      <point x="417.5" y="39.0" />
+      <point x="278.57499999999993" y="39.0" />
+      <point x="0.0" y="-14.5" />
+    </edge>
+    <edge source="moves.zapdos.Swagger" target="ru.ifmo.se.pokemon.StatusMove" relationship="GENERALIZATION">
+      <point x="0.0" y="14.5" />
+      <point x="1166.0" y="118.0" />
+      <point x="1238.0" y="118.0" />
+      <point x="0.0" y="-14.5" />
+    </edge>
+    <edge source="moves.deino.DoubleHit" target="ru.ifmo.se.pokemon.PhysicalMove" relationship="GENERALIZATION">
+      <point x="0.0" y="14.5" />
+      <point x="269.5" y="39.0" />
+      <point x="278.57499999999993" y="39.0" />
+      <point x="0.0" y="-14.5" />
+    </edge>
+    <edge source="moves.eevee.BabyDollEyes" target="ru.ifmo.se.pokemon.StatusMove" relationship="GENERALIZATION">
+      <point x="0.0" y="14.5" />
+      <point x="1310.0" y="118.0" />
+      <point x="1238.0" y="118.0" />
+      <point x="0.0" y="-14.5" />
+    </edge>
+    <edge source="ru.ifmo.se.pokemon.StatusMove" target="ru.ifmo.se.pokemon.Move" relationship="GENERALIZATION">
+      <point x="0.0" y="14.5" />
+      <point x="1238.0" y="197.0" />
+      <point x="828.25" y="197.0" />
+      <point x="0.0" y="-14.5" />
+    </edge>
+    <edge source="moves.deino.Headbutt" target="ru.ifmo.se.pokemon.PhysicalMove" relationship="GENERALIZATION">
+      <point x="0.0" y="14.5" />
+      <point x="133.5" y="39.0" />
+      <point x="278.57499999999993" y="39.0" />
+      <point x="0.0" y="-14.5" />
+    </edge>
+    <edge source="pokemons.Zweilous" target="pokemons.Deino" relationship="GENERALIZATION">
+      <point x="5.6843418860808015E-14" y="14.5" />
+      <point x="0.0" y="-14.5" />
+    </edge>
+    <edge source="moves.deino.Rest" target="ru.ifmo.se.pokemon.StatusMove" relationship="GENERALIZATION">
+      <point x="0.0" y="14.5" />
+      <point x="1053.0" y="118.0" />
+      <point x="1238.0" y="118.0" />
+      <point x="0.0" y="-14.5" />
+    </edge>
+    <edge source="pokemons.Deino" target="ru.ifmo.se.pokemon.Pokemon" relationship="GENERALIZATION">
+      <point x="5.6843418860808015E-14" y="14.5" />
+      <point x="188.00000000000009" y="449.16798846431146" />
+      <point x="303.0" y="449.16798846431146" />
+      <point x="0.0" y="-14.5" />
+    </edge>
+    <edge source="ru.ifmo.se.pokemon.SpecialMove" target="ru.ifmo.se.pokemon.DamageMove" relationship="GENERALIZATION">
+      <point x="0.0" y="14.5" />
+      <point x="926.5" y="118.0" />
+      <point x="636.5" y="118.0" />
+      <point x="0.0" y="-14.5" />
+    </edge>
+    <edge source="pokemons.Eevee" target="ru.ifmo.se.pokemon.Pokemon" relationship="GENERALIZATION">
+      <point x="0.0" y="14.5" />
+      <point x="417.5" y="449.16798846431146" />
+      <point x="303.0" y="449.16798846431146" />
+      <point x="0.0" y="-14.5" />
+    </edge>
+    <edge source="ru.ifmo.se.pokemon.DamageMove" target="ru.ifmo.se.pokemon.Move" relationship="GENERALIZATION">
+      <point x="0.0" y="14.5" />
+      <point x="636.5" y="197.0" />
+      <point x="828.25" y="197.0" />
+      <point x="0.0" y="-14.5" />
+    </edge>
+    <edge source="moves.zapdos.ZapCannon" target="ru.ifmo.se.pokemon.SpecialMove" relationship="GENERALIZATION">
+      <point x="0.0" y="14.5" />
+      <point x="1149.0" y="39.0" />
+      <point x="926.5" y="39.0" />
+      <point x="0.0" y="-14.5" />
+    </edge>
+    <edge source="moves.deino.Swagger" target="ru.ifmo.se.pokemon.StatusMove" relationship="GENERALIZATION">
+      <point x="0.0" y="14.5" />
+      <point x="1454.0" y="118.0" />
+      <point x="1238.0" y="118.0" />
+      <point x="0.0" y="-14.5" />
+    </edge>
+    <edge source="ru.ifmo.se.pokemon.PhysicalMove" target="ru.ifmo.se.pokemon.DamageMove" relationship="GENERALIZATION">
+      <point x="0.0" y="14.5" />
+      <point x="278.57499999999993" y="118.0" />
+      <point x="636.5" y="118.0" />
+      <point x="0.0" y="-14.5" />
+    </edge>
+    <edge source="moves.zapdos.ThunderShock" target="ru.ifmo.se.pokemon.SpecialMove" relationship="GENERALIZATION">
+      <point x="0.0" y="14.5" />
+      <point x="849.5" y="39.0" />
+      <point x="926.5" y="39.0" />
+      <point x="0.0" y="-14.5" />
+    </edge>
+    <edge source="moves.eevee.Facade" target="ru.ifmo.se.pokemon.PhysicalMove" relationship="GENERALIZATION">
+      <point x="0.0" y="14.5" />
+      <point x="554.5" y="39.0" />
+      <point x="278.57499999999993" y="39.0" />
+      <point x="0.0" y="-14.5" />
+    </edge>
+    <edge source="pokemons.Glaceon" target="pokemons.Eevee" relationship="GENERALIZATION">
+      <point x="0.0" y="14.5" />
+      <point x="0.0" y="-14.5" />
+    </edge>
+    <edge source="moves.zapdos.ChargeBeam" target="ru.ifmo.se.pokemon.SpecialMove" relationship="GENERALIZATION">
+      <point x="0.0" y="14.5" />
+      <point x="690.5" y="39.0" />
+      <point x="926.5" y="39.0" />
+      <point x="0.0" y="-14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.866875" showDependencies="false" x="728.0" y="284.45421773612117" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>protected</VISIBILITY>
+</Diagram>
+

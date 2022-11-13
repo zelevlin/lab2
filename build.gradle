@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'zelenkov'
+version '1.0-SNAPSHOT'
+mainClassName = 'ru.itmo.Main'
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation( files('src/lib/Pokemon.jar'))
+
+}
+jar {
+    baseName = 'lab2'
+    version = '1.0'
+}
